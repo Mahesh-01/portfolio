@@ -216,7 +216,7 @@ img {
 
 .my_intro{
     position: sticky;
-    top: 30px;
+    top: 120px;
     background-color: var(--darkGreen);
     color: #fff;
     padding: 30px;
@@ -368,4 +368,11 @@ img {
 
 .my_exp {
     position: relative;
+}
+header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+    background-color: #fff;
 }
