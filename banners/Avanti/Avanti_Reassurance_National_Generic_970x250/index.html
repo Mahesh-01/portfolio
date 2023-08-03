@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="ad.size" content="width=970,height=250">
+    <title>Avanti West Coast 970 x 250</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js">
+    </script>
+
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <script type="text/javascript">
+      var clickTag = "https://www.avantiwestcoast.co.uk/";
+    </script>
+
+</head>
+
+<body onload="init();">
+
+      <div id="main" class="main-text">
+        <div id="sparkHolder">
+          <img id="spark" src="./images/bg.png">
+        </div>
+
+        <img id="txt2" src="./images/txt1.png" class="retinaFullWidth">
+        <img id="txt3" src="./images/txt2.png" class="retinaFullWidth">
+        <img id="txt4" src="./images/txt3.png" class="retinaFullWidth">
+        <img id="txt5" src="./images/txt4.png" class="retinaFullWidth">
+
+
+        <img id="legals1" src="./images/legals.png" class="legals1">
+
+        <img id="logo" src="./images/logo1.svg"  alt="logo">
+        <img id="cta_logo" src="./images/logo1.svg"  alt="logo">
+        <img id="cta" src="./images/cta.png">
+        <img id="legals3" src="./images/legals.png" class="legals1 legals_new">
+
+        <div id="bgExit"></div>
+      </div>
+      <script>
+        var clickArea = document.getElementById("bgExit");
+        clickArea.onclick = function () {
+          window.open(clickTag);
+        };
+    </script>
+</body>
+
+</html>

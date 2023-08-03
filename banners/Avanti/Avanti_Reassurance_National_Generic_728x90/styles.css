@@ -1,0 +1,127 @@
+/*@font-face {
+  font-family: 'openSansBold';
+  src: url(fonts/OpenSans-Bold.woff2);
+}*/
+
+sup, sub {
+  font-size: 50%;
+}
+
+html, body {
+  width:728px;
+  height:90px;
+  margin: 0;
+}
+
+#main {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:728px;
+  height:90px;
+  background-color: #e2f5e9;
+  border:1px solid #000000;
+  box-sizing: border-box;
+  overflow:hidden;
+  visibility: hidden;
+}
+
+img, div {
+  position:absolute;
+}
+  
+.retinaFullWidth {
+  width: 160px;
+  top: 25px;
+  left:270px;
+  /* height: auto; */
+}
+#txt2{
+  width: 178px;
+  left: 275px;
+  top:22px;
+}
+#txt3{
+  width: 286px;
+  left: 221px;
+  top: 22px;
+}
+#txt4{
+  width: 232px;
+  left:248px;
+  top:22px;
+}
+#txt5{
+  width: 292px;
+  left:218px;
+  top: 22px;
+}
+
+#logo {
+  width: 136px;
+  height:auto;
+  left: 590px;
+  top: 23px;
+}
+
+#cta_logo {
+  width: 178px;
+  height:auto;
+  left: 205px;
+  top: 15px;
+}
+
+#cta {
+  position: absolute;
+  width: 97px;
+  height: auto;
+  top: 31px;
+  left: 403px;
+}
+
+
+#cta_logo1 {
+  width: 166px;
+  height:auto;
+  left: 195px;
+  top: 14px;
+}
+
+#cta1 {
+  position: absolute;
+  width: 168px;
+  height: auto;
+  top: 30px;
+  left: 369px;
+}
+
+
+#spark {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+}
+
+.legals1{
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  width: 142px;
+}
+.legals_new{
+  left: 388px;
+  top: 66px;
+  width: 128px;
+}
+
+#bgExit {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width:728px;
+  height:90px;
+  cursor: pointer !important;
+  z-index: 100;
+}
