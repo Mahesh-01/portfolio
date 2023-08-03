@@ -107,12 +107,38 @@ img {
 
 }
 
+
+.typing-text {
+    font-size: 24px;
+    text-align: center;
+}
+
+#cursor {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
 .banner .name h1 {
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 10px;
+    display: inline-block;
 }
-
+.banner .name #cursor{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 6px;
+    color: #ccc;
+    /* margin-bottom: 10px; */
+}
 .banner .deg p {
     font-size: 23px;
     margin-bottom: 10px;
@@ -375,4 +401,59 @@ header{
     left: 0px;
     z-index: 11;
     background-color: #fff;
+}
+.banner-work{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav-pills{
+    gap:10px;
+    justify-content: center;
+}
+.nav-pills .nav-link{
+    background-color: var(--aquaGreen);
+    color: #000;
+    font-weight: 600;
+    padding: 15px 40px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: var(--darkGreen);
+}
+.inner-banner a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 4px;
+}
+.inner-banner .breadcrumb span{
+    opacity: .7;
+    display: inline-block;
+    padding: 0 4px;
+}
+
+
+.contact .box{
+    background-color: var(--darkGreen);
+    color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: #ccc soli;
+}
+.contact .box a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+} 
+.contact .box a i{
+    display: inline-block;
+    font-size: 45px;
+    width: 90px;
+    background-color: #40e0c6;
+    text-align: center;
+    padding: 30px 0;
+    margin-right: 15px;
 }
