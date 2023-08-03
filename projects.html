@@ -4,332 +4,447 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahesh Bhatt Frontend Developer</title>
+    <link rel="shortcut icon" href="images/logo.png" type="images/logo.png">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-   <header>
-      <nav class="navbar navbar-expand-lg">
-         <div class="container">
-           <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-               <li class="nav-item">
-                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="contact.html">Contact Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link resume-btn" target="_blank"  href="images/resume.pdf">Resume</a>
-                </li>
-              </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+           <div class="container">
+             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link" href="index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="experience.html">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="contact.html">Contact Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link resume-btn" target="_blank"  href="images/Mahesh-Bhatt-Resume.pdf">Resume</a>
+                  </li>
+                </ul>
+             </div>
            </div>
-         </div>
-       </nav>
-   </header>
+         </nav>
+     </header>
+</main>
+<section class="inner-banner" style="background-color: #167162; color: #fff; padding: 50px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Portfolio Showcase: My Creative Ventures</h1>
+                <div class="breadcrumb justify-content-center">
+                    <a href="index.html">Home</a> / <span>Experience</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="projects secPadd" id="projects"> 
+   <div class="container">
+      <div class="heading mb-4 text-center">
+         <h2>Work Showcase</h2>
+         <p>"Crafting captivating online experiences: From dynamic websites and eye-catching ad banners to engaging email templates, <br>my portfolio showcases a fusion of creativity and functionality."</p>
+      </div>
 
-    <main>
 
-
-    <div class="projects secPadd">
-      <div class="container">
-         <div class="heading mb-4 text-center">
-            <h2>My Projects</h2>
-         </div>
-         <div class="project-content">
-            <div class="row g-5">
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project1.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">CarLelo- Hassle Free New Car Buying Platform</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>REACT JS</span>
-                           <span>GITHUB</span>
+      <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+         <li class="nav-item" role="presentation">
+           <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Websites</button>
+         </li>
+         <li class="nav-item" role="presentation">
+           <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ad Banners</button>
+         </li>
+       </ul>
+       <div class="tab-content" id="pills-tabContent">
+         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="project-content">
+               <div class="row g-5">
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project1.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">CarLelo- Hassle Free New Car Buying Platform</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>REACT JS</span>
+                              <span>GITHUB</span>
+                           </div>
+                           <p>Carlelo is an online New Car Buying platform that provides one stop solution. Choose your dream car through our multi brand virtual car showroom.</p>
+                           <a class="button-38" href="https://www.carlelo.com/">Visit Website</a>
                         </div>
-                        <p>Carlelo is an online New Car Buying platform that provides one stop solution. Choose your dream car through our multi brand virtual car showroom.</p>
-                        <a class="button-38" href="https://www.carlelo.com/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project2.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">Try Tag Rugby</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>WORDPRESS</span>
-                           <span>GITHUB</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project2.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">Try Tag Rugby</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>WORDPRESS</span>
+                              <span>GITHUB</span>
+                           </div>
+                           <p>Try Tag Rugby run mixed, men's and women's leagues and events in the sport of Tag Rugby throughout the UK. Tag Rugby is a minimal contact version of Rugby,</p>
+                           <a class="button-38" href="https://trytagrugby.com/">Visit Website</a>
                         </div>
-                        <p>Try Tag Rugby run mixed, men's and women's leagues and events in the sport of Tag Rugby throughout the UK. Tag Rugby is a minimal contact version of Rugby,</p>
-                        <a class="button-38" href="https://trytagrugby.com/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project3.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">Ocean Glassware</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>MAGENTO</span>
-                           <span>GITHUB</span>
-                           <span>ECOMMERCE</span>
-                           <span>JIRA</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project3.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">Ocean Glassware</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>MAGENTO</span>
+                              <span>GITHUB</span>
+                              <span>ECOMMERCE</span>
+                              <span>JIRA</span>
+                           </div>
+                           <p>Inspired by aesthetic and creativity, we passionately produce innovative and stylish glassware to enhance values of drinking and dining experiences. Ocean® ...</p>
+                           <a class="button-38" href="https://www.ocean-glassware.com/">Visit Website</a>
                         </div>
-                        <p>Inspired by aesthetic and creativity, we passionately produce innovative and stylish glassware to enhance values of drinking and dining experiences. Ocean® ...</p>
-                        <a class="button-38" href="https://www.ocean-glassware.com/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project4.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">RxLogix</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>WORDPRESS</span>
-                           <span>GITHUB</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project4.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">RxLogix</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>WORDPRESS</span>
+                              <span>GITHUB</span>
+                           </div>
+                           <p>Fast forward your digital acceleration by using RxLogix platform, your One-Stop PV Platform. Innovation & automation on the Move - Patient Safety, Innovation, ...</p>
+                           <a class="button-38" href="https://www.rxlogix.com/">Visit Website</a>
                         </div>
-                        <p>Fast forward your digital acceleration by using RxLogix platform, your One-Stop PV Platform. Innovation & automation on the Move - Patient Safety, Innovation, ...</p>
-                        <a class="button-38" href="https://www.rxlogix.com/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project5.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">FLEX FOODS- Freeze Dried Fruits, Vegetables and Herbs Manufacturer in India</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project5.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">FLEX FOODS- Freeze Dried Fruits, Vegetables and Herbs Manufacturer in India</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                           </div>
+                           <p>Located in the pristine foot hills of the Himalayas, nourished by the Ganges, Flex Foods is today one of the largest producers of natural food ingredients ...</p>
+                           <a class="button-38" href="https://www.flexfoodsltd.com/">Visit Website</a>
                         </div>
-                        <p>Located in the pristine foot hills of the Himalayas, nourished by the Ganges, Flex Foods is today one of the largest producers of natural food ingredients ...</p>
-                        <a class="button-38" href="https://www.flexfoodsltd.com/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project6.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">Krishispray</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>REACT JS</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project6.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">Krishispray</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>REACT JS</span>
+                           </div>
+                           <p>Krishi Spray contributes to the modernization of Indian farms by bringing world-class agricultural spraying machinery technologies.</p>
+                           <a class="button-38" href="https://krishispray.in/">Visit Website</a>
                         </div>
-                        <p>Krishi Spray contributes to the modernization of Indian farms by bringing world-class agricultural spraying machinery technologies.</p>
-                        <a class="button-38" href="https://krishispray.in/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project7.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">The Black Lover - Clothing | Because it's Favourite!</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>ECOMMERCE</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project7.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">The Black Lover - Clothing | Because it's Favourite!</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>ECOMMERCE</span>
+                           </div>
+                           <p>Akshay Kumar launches TheBlacklover Brand As Wearing Black Is A Lifestyle. Read More. BUSINESS STANDARD.</p>
+                           <a class="button-38" href="https://krishispray.in/">Visit Website</a>
                         </div>
-                        <p>Akshay Kumar launches TheBlacklover Brand As Wearing Black Is A Lifestyle. Read More. BUSINESS STANDARD.</p>
-                        <a class="button-38" href="https://krishispray.in/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project8.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">India Smart Grid Forum (ISGF)</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>REACT JS</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project8.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">India Smart Grid Forum (ISGF)</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>REACT JS</span>
+                           </div>
+                           <p>ISGF Members · Council on Energy Environment and Water (CEEW) · National Water Missio · Aditya Silver Oak Institute of Technology · IIT Delhi · Data Security Council ...</p>
+                           <a class="button-38" href="https://www.indiasmartgrid.org/">Visit Website</a>
                         </div>
-                        <p>ISGF Members · Council on Energy Environment and Water (CEEW) · National Water Missio · Aditya Silver Oak Institute of Technology · IIT Delhi · Data Security Council ...</p>
-                        <a class="button-38" href="https://www.indiasmartgrid.org/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project9.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">SEA circular - Solving Plastic Pollution At Source</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>WORDPRESS</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project9.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">SEA circular - Solving Plastic Pollution At Source</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>WORDPRESS</span>
+                           </div>
+                           <p>SEA circular is an initiative of UN Environment Programme and the Coordinating Body on the Seas of East Asia (COBSEA) to inspire market-based solutions and ...</p>
+                           <a class="button-38" href="https://www.sea-circular.org/">Visit Website</a>
                         </div>
-                        <p>SEA circular is an initiative of UN Environment Programme and the Coordinating Body on the Seas of East Asia (COBSEA) to inspire market-based solutions and ...</p>
-                        <a class="button-38" href="https://www.sea-circular.org/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project10.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">Anindita Chattaraj Foundation</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>WORDPRESS</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project10.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">Anindita Chattaraj Foundation</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>WORDPRESS</span>
+                           </div>
+                           <p>Anindita Chattaraj Foundation is dedicated to help people in education, supporting in medical equipment needs and offering a helping hand to the needy. There ...</p>
+                           <a class="button-38" href="https://aninditachattarajfoundation.org/">Visit Website</a>
                         </div>
-                        <p>Anindita Chattaraj Foundation is dedicated to help people in education, supporting in medical equipment needs and offering a helping hand to the needy. There ...</p>
-                        <a class="button-38" href="https://aninditachattarajfoundation.org/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project11.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">Best Hearing Clinics</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>WORDPRESS</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project11.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">Best Hearing Clinics</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>WORDPRESS</span>
+                           </div>
+                           <p>At the Best Hearing Clinics, we treat hearing loss and related auditory problems in people of all ages.</p>
+                           <a class="button-38" href="https://aninditachattarajfoundation.org/">Visit Website</a>
                         </div>
-                        <p>At the Best Hearing Clinics, we treat hearing loss and related auditory problems in people of all ages.</p>
-                        <a class="button-38" href="https://aninditachattarajfoundation.org/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project12.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">IVCA Conclave 2023</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>WORDPRESS</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project12.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">IVCA Conclave 2023</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>WORDPRESS</span>
+                           </div>
+                           <p>Now in its 12th year, IVCA Conclave brings together PE/VC investors, Limited Partners, Family Offices, Entrepreneurs, Angel Investors, Consultants/ Advisors ...</p>
+                           <a class="button-38" href="https://www.ivcaconclave.com/">Visit Website</a>
                         </div>
-                        <p>Now in its 12th year, IVCA Conclave brings together PE/VC investors, Limited Partners, Family Offices, Entrepreneurs, Angel Investors, Consultants/ Advisors ...</p>
-                        <a class="button-38" href="https://www.ivcaconclave.com/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project13.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">Tanner Menzies: Recruitment Agency in Australia</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
-                           <span>WORDPRESS</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project13.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">Tanner Menzies: Recruitment Agency in Australia</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                              <span>WORDPRESS</span>
+                           </div>
+                           <p>Tanner Menzies is the differentiated recruitment agency in Australia that focuses on a result-driven hiring strategy to meet business needs.
+                           </p>
+                           <a class="button-38" href="https://tannermenzies.net.au/">Visit Website</a>
                         </div>
-                        <p>Tanner Menzies is the differentiated recruitment agency in Australia that focuses on a result-driven hiring strategy to meet business needs.
-                        </p>
-                        <a class="button-38" href="https://tannermenzies.net.au/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project14.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">Mistral Of Milan Makeup</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project14.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">Mistral Of Milan Makeup</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                           </div>
+                           <p>Highly volumising • Thickening • Curling • Non-smudging. Enjoy full, defined and curled lashes with just a few, quick swipes! The thin formula easily coats ...</p>
+                           <a class="button-38" href="https://www.mistralofmilan.com/">Visit Website</a>
                         </div>
-                        <p>Highly volumising • Thickening • Curling • Non-smudging. Enjoy full, defined and curled lashes with just a few, quick swipes! The thin formula easily coats ...</p>
-                        <a class="button-38" href="https://www.mistralofmilan.com/">Visit Website</a>
                      </div>
                   </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="project">
-                     <img src="images/project15.png" alt="">
-                     <div class="content">
-                        <h3 class="mb-3">RASHI SEHGAL STUDIO</h3>
-                        <div class="tags mb-3">
-                           <span>HTML</span>
-                           <span>CSS</span>
-                           <span>JAVASCRIPT</span>
-                           <span>GITHUB</span>
-                           <span>BOOTSTRAP</span>
+                  <div class="col-md-4">
+                     <div class="project">
+                        <img src="images/project15.png" alt="">
+                        <div class="content">
+                           <h3 class="mb-3">RASHI SEHGAL STUDIO</h3>
+                           <div class="tags mb-3">
+                              <span>HTML</span>
+                              <span>CSS</span>
+                              <span>JAVASCRIPT</span>
+                              <span>GITHUB</span>
+                              <span>BOOTSTRAP</span>
+                           </div>
+                           <p>BRIDAL MAKEUP ARTIST / EDUCATOR/ BRIDAL STYLIST LUXURY INDIAN WEDDINGS / TRAVEL ADDICT</p>
+                           <a class="button-38" href="http://rashisehgal.com/">Visit Website</a>
                         </div>
-                        <p>BRIDAL MAKEUP ARTIST / EDUCATOR/ BRIDAL STYLIST LUXURY INDIAN WEDDINGS / TRAVEL ADDICT</p>
-                        <a class="button-38" href="http://rashisehgal.com/">Visit Website</a>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-    </div>
-   </main>
-    <footer class="site-footer">
-      <div class="container">
-         <div class="social-media">
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-envelope"></i></a>
-         </div>
-      </div>
-    </footer>
+         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <h2>Emerson</h2>
+            <div class="banner-work mb-5">
+               <iframe src="banners/Emerson/EMR_Digital_GoBoldly_Hydrogen_300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/Emerson/EMR_Digital_GoBoldly_Hydrogen_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/Emerson/EMR_Digital_GoBoldly_Hydrogen_728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/Emerson/EMR_Digital_GoBoldly_Hydrogen_970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+               <iframe src="banners/Emerson/EMR_Digital_GoBoldly_Hydrogen_1242x699/index.html" width="1242" height="699" frameborder="0"></iframe>
+            </div>
+            
+            <h2>Thoughtful Driving</h2>
+            <div class="banner-work mb-5">
+               <iframe src="banners/Thoughtful_driving/300x50/index.html" width="300" height="50" frameborder="0"></iframe>
+               <iframe src="banners/Thoughtful_driving/320x50/index.html" width="320" height="50" frameborder="0"></iframe>
+               <iframe src="banners/Thoughtful_driving/326x75/index.html" width="326" height="75" frameborder="0"></iframe>
+               <iframe src="banners/Thoughtful_driving/728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+            </div>
 
-    <script src="js/bootstrap.js"></script>
+            <h2>Flex Alert</h2>
+            <div class="banner-work mb-5">
+               <iframe src="banners/Flex_alert/300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/Flex_alert/320x480/index.html" width="320" height="480" frameborder="0"></iframe>
+               <iframe src="banners/Flex_alert/300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/Flex_alert/728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+            </div>
+            <h2>GWR</h2>
+            <div class="banner-work mb-5">
+               <iframe src="banners/GWR/300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/GWR/160x600/index.html" width="160" height="600" frameborder="0"></iframe>
+               <iframe src="banners/GWR/300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/GWR/728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/GWR/750x1334/index.html" width="750" height="1334" frameborder="0"></iframe>
+               <iframe src="banners/GWR/970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+            </div>
+            <!-- <div class="banner-work">
+               <iframe src="banners/iShares/ishares_AOR_Crane/ishares_AOR_Crane_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_AOR_Crane/ishares_AOR_Crane_300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_AOR_Crane/ishares_AOR_Crane_640x480/index.html" width="640" height="480" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_AOR_Crane/ishares_AOR_Crane_728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_AOR_Crane/ishares_AOR_Crane_970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+            </div> -->
+            <!-- <div class="banner-work">
+               <iframe src="banners/iShares/ishares_CORE_Stopwatch/ishares_CORE_Stopwatch_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_CORE_Stopwatch/ishares_CORE_Stopwatch_300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_CORE_Stopwatch/ishares_CORE_Stopwatch_640x480/index.html" width="640" height="480" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_CORE_Stopwatch/ishares_CORE_Stopwatch_728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_CORE_Stopwatch/ishares_CORE_Stopwatch_970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+            </div>
+            <div class="banner-work">
+               <iframe src="banners/iShares/ishares_IVRS_Metaverse/ishares_IVRS_Metaverse_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_IVRS_Metaverse/ishares_IVRS_Metaverse_300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_IVRS_Metaverse/ishares_IVRS_Metaverse_640x480/index.html" width="640" height="480" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_IVRS_Metaverse/ishares_IVRS_Metaverse_728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_IVRS_Metaverse/ishares_IVRS_Metaverse_970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+            </div>
+            <div class="banner-work">
+               <iframe src="banners/iShares/ishares_SHV_Kettlebells/ishares_SHV_Kettlebells_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_SHV_Kettlebells/ishares_SHV_Kettlebells_300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_SHV_Kettlebells/ishares_SHV_Kettlebells_640x480/index.html" width="640" height="480" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_SHV_Kettlebells/ishares_SHV_Kettlebells_728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_SHV_Kettlebells/ishares_SHV_Kettlebells_970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+            </div>
+            <div class="banner-work">
+               <iframe src="banners/iShares/ishares_STIP_Lion/ishares_STIP_Lion_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_STIP_Lion/ishares_STIP_Lion_300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_STIP_Lion/ishares_STIP_Lion_640x480/index.html" width="640" height="480" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_STIP_Lion/ishares_STIP_Lion_728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/iShares/ishares_STIP_Lion/ishares_STIP_Lion_970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+            </div> -->
+            <h2>Avanti Reassurance</h2>
+            <div class="banner-work">
+               <iframe src="banners/Avanti/Avanti_Reassurance_National_Generic_120x600/index.html" width="120" height="600" frameborder="0"></iframe>
+               <iframe src="banners/Avanti/Avanti_Reassurance_National_Generic_160x600/index.html" width="160" height="600" frameborder="0"></iframe>
+               <iframe src="banners/Avanti/Avanti_Reassurance_National_Generic_300x600/index.html" width="300" height="600" frameborder="0"></iframe>
+               <iframe src="banners/Avanti/Avanti_Reassurance_National_Generic_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/Avanti/Avanti_Reassurance_National_Generic_300x250/index.html" width="300" height="250" frameborder="0"></iframe>
+               <iframe src="banners/Avanti/Avanti_Reassurance_National_Generic_728x90/index.html" width="728" height="90" frameborder="0"></iframe>
+               <iframe src="banners/Avanti/Avanti_Reassurance_National_Generic_970x250/index.html" width="970" height="250" frameborder="0"></iframe>
+            </div>
+            
+         </div>
+       </div>
+
+
+
+     
+   </div>
+ </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+     <div class="social-media">
+        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+     </div>
+  </div>
+</footer>
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
 </body>
 </html>
