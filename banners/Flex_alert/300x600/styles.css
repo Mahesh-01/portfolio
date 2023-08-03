@@ -1,0 +1,99 @@
+html, body {
+  width:300px;
+  height:600px;
+  margin: 0;
+}
+
+#main,
+#background {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:600px;
+  background-color:#F47100;
+  overflow:hidden;
+}
+
+#imageCont {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.absolute {
+  position:absolute;
+  left: 0px;
+}
+
+.full-width {
+  width: 300px;
+  height: auto;
+}
+
+#bkg1-pink,
+#bkg1-orange,
+#bkg2-pink,
+#bkg2-orange,
+#bkg3-pink,
+#bkg3-orange {
+  width: 900px;
+}
+
+#bkg1-pink,
+#bkg2-pink,
+#bkg3-pink {
+  left: 308px;
+}
+
+#bkg1-orange,
+#bkg2-orange,
+#bkg3-orange {
+  left: 158px;
+}
+
+#flex-alert {
+  width: 310px;
+  top: 390px;
+  left: 390px;
+  transform-origin: 100% 100%;
+}
+
+#txt1,
+#logo,
+#cta {
+  left: -300px;
+}
+
+#txt2a-container,
+#txt2b-container,
+#txt2c-container {
+  transform-origin: 0% 50%;
+  width: 0px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#bgExit {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 85;
+  background-color: rgba(255,255,255,0);
+  border:1px solid #000000;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}

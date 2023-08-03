@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="ad.size" content="width=300,height=250">
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <script type="text/javascript">
+      var clickTag = "";
+    </script>
+
+</head>
+
+<body onload="init();">
+
+    <div id="main">
+
+        <div id="background"></div>
+
+        <img src="images/bkg_pink.png" id="bkg1-pink" class="absolute full-width"/>
+        <img src="images/bkg_orange.png" id="bkg1-orange" class="absolute full-width"/>
+        
+        <img src="images/bkg_pink.png" id="bkg2-pink" class="absolute full-width"/>
+        <img src="images/bkg_orange.png" id="bkg2-orange" class="absolute full-width"/>
+        
+        <img src="images/bkg_pink.png" id="bkg3-pink" class="absolute full-width"/>
+        <img src="images/bkg_orange.png" id="bkg3-orange" class="absolute full-width"/>
+
+        <div id="imageCont">
+          <img src="images/flex_alert.png" id="flex-alert" class="absolute full-width"/>
+          <img src="images/txt1.png" id="txt1" class="absolute full-width"/>
+
+          <div id="txt2a-container" class="absolute">
+            <img src="images/txt2a.png" id="txt2a" class="absolute full-width"/>
+          </div>
+          <div id="txt2b-container" class="absolute">
+            <img src="images/txt2b.png" id="txt2b" class="absolute full-width"/>
+          </div>
+        </div>
+
+        <img src="images/cta.png" id="cta" class="absolute full-width"/>
+        <img src="images/logo.png" id="logo" class="absolute full-width"/>
+        <div id="hidden" class="hidden"></div>
+
+        <div id="bgExit"></div>
+
+    </div>
+    <script>
+        var clickArea = document.getElementById("bgExit");
+        clickArea.onclick = function () {
+          window.open(clickTag);
+        };
+    </script>
+</body>
+
+</html>
